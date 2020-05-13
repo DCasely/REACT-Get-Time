@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
 export default function App() {
-  let currentTime = new Date().toLocaleTimeString();
-
   const [time, setTime] = useState('What Time Is It?');
 
   function getTime() {
-    setTime((currentTime = new Date().toLocaleTimeString()));
+    let currentTime = new Date().toLocaleTimeString();
+
+    setTime(currentTime);
 
     setInterval(getTime, 1000);
   }
