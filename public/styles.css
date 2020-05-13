@@ -1,0 +1,56 @@
+body {
+  font: normal 14px/100% 'Andale Mono', AndaleMono, monospace;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #000;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.473);
+  height: auto;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.container {
+  background-image: url(./images/reacttimeback.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  min-height: 75vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 5rem auto;
+}
+
+button {
+  font: normal 14px/100% 'Andale Mono', AndaleMono, monospace;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 0.5rem;
+  display: inline;
+  background-color: #b89c007a;
+  border: 0;
+  border-radius: 10px;
+  border: #fff solid 1px;
+  box-shadow: 5px;
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(1);
+}
